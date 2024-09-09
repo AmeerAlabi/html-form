@@ -1,0 +1,71 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+
+img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.map-items a{
+    color: hsl(240, 82%, 19%);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 350;
+    margin-left: 10px;
+}
+
+.but-1{
+    border: none;
+    font-size: 13px;
+    background-color: white;
+    color: rgb(3, 3, 134);
+    padding: 2px 3px;
+    cursor: pointer;
+    
+}
+
+.but-2{
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 3px;
+    padding: 5px 5px;
+    
+}
+
+.form-box{
+    padding: 0px 10px;
+    margin-top: 70px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.reg-box{
+    display: flex;
+    
+}
+
+.lst{
+    margin-left: 20px;
+}
+
+.home {
+    margin-top: 20px;
+}
+
+ .but-3{
+    background-color: rgb(11, 11, 130);
+    color: azure;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,659 @@
+.form-table {
+  text-align: left;
+  /** background-image: linear-gradient(black,aquamarine);**/
+  color: black;
+  line-height: 50px;
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  animation: pop-up 2s 3s;
+  cursor: pointer;
+  transition: 1s;
+}
+.sign-up {
+   background-color:black;
+
+  color:white;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left:auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 3px black;
+}
+.sign-up:hover {
+  /* background-color: purple; */
+  color: white;
+}
+#text-area {
+  /* background-color: purple; */
+  width: 700px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 40px;
+  border-radius: 15px;
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 3px 3px 3px black;
+}
+.agree {
+  color: white;
+}
+#text-area:hover {
+  background-color: black;
+  color: white;
+}
+text-area {
+  /* background-color: purple; */
+}
+.country {
+  margin-left: 53px;
+  /* background-color: purple; */
+  border-radius: 5px;
+  height: 45px;
+  float: right;
+  width: 275px;
+  margin-right: 15px;
+  box-shadow: 3px 3px 3px black;
+}
+.country:hover {
+  background-color: black;
+  color: white;
+}
+.age {
+  /* background-color: purple; */
+  border-radius: 5px;
+  margin-left: 95px;
+  height: 45px;
+  box-shadow: 3px 3px 3px black;
+  width: 275px;
+  margin-right: 15px;
+}
+.age:hover {
+  background-color: black;
+  color: white;
+}
+.city {
+  /* background-color: purple; */
+  border-radius: 5px;
+  margin-left: 98px;
+  height: 45px;
+  float: right;
+  margin-right: 15px;
+  width: 275px;
+  box-shadow: 3px 3px 3px black;
+}
+.city:hover {
+  background-color: black;
+  color: white;
+}
+body {
+   background-color:darkblue;
+  background-size: 1440px;
+  height: 1440px;
+  cursor: pointer;
+  list-style: none;
+}
+/**.form-table:hover{
+    background-color: blue;
+    transition: 2s;
+    transform: rotate(360deg);
+}**/
+.click {
+  margin: 6px auto;
+  width: 175px;
+  height: 45px;
+  background-color:black;
+  color: white;
+  margin-left: 105px;
+  font-size: 17px;
+  justify-content: baseline;
+  float: right;
+  font-family: "Poppins", sans-serif;
+  width: 225px;
+  margin-right: 17px;
+  border-radius: 10px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  text-decoration: none;
+  align-items: center;
+  background-color:rgb(223, 223, 223,0.3);
+  padding: 10px;
+  border-radius: 5px;
+}
+.link {
+  background-color:;
+  color:;
+  text-align: center;
+  margin-top: 30px;
+}
+.last-grid {
+  display: flex;
+  grid-template-columns: 1 / span 3;
+  margin: auto;
+  overflow: hidden;
+}
+
+.head {
+  background-color: rgb(228, 202, 228);
+  text-align: center;
+  border-radius: 8px;
+}
+img {
+  height: 1440px;
+}
+a{
+  text-decoration: none;
+  margin-left: 12px;
+  color:black;
+}
+a:hover {
+  background-color:black;
+  height: 45px;
+  padding: 14px;
+  border-radius: 5px;
+  color: white;
+}
+.nav-links {
+  text-decoration: none;
+  text-decoration: solid;
+  font-weight: 600;
+}
+.logo {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  box-shadow: 3px 3px 3px black;
+  overflow: hidden;
+}
+/**.logo::before{
+  content: "";
+  top: 0;
+  left: 0;
+  width:100%;
+  height:10%;
+  overflow: hidden;
+  margin-top: 10px;
+  transform: translateX(-100%);
+  transition: 0.6s;
+  background:linear-gradient(120deg,transparent,#00fffc,transparent);
+  position: absolute;
+}
+.logo:hover{
+  background: transparent;
+  box-shadow: 0 0 20px 5px #00fffc;
+}
+.logo:hover::before{
+  transform: translateX(-100%);
+}**/
+.register {
+  background-color:black;
+  color: white;
+  padding: 12px;
+  width: 95px;
+  border-radius: 8px;
+  padding-left: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login {
+  color: white;
+  border: none;
+  background-color:black;
+  margin-right: 8px;
+  font-family: "Poppins", sans-serif;
+  padding: 6px;
+  border-radius: 3px;
+}
+.login:hover {
+  padding: 8px;
+  border-radius: 7px;
+/* background-color: purple; */
+  color: white;
+}
+.logo:hover {
+  color: white;
+  /* background-color: purple; */
+}
+button:hover {
+  /* background-color: purple; */
+  color: white;
+}
+
+/**}@keyframes pop-up{
+    0%{transform:top(5px);}
+    50%{transform: top(400px);}
+    100%{transform: top(120px);}
+    0%{height:120px;}
+    50%{height: 500px;}
+    100%{height:300px;}
+    0%{width: 400px;}
+    50%{width: 600px;}
+    100%{width:400px;}
+}**/
+.name {
+  /* background-color: purple; */
+  text-transform: lowercase;
+  padding-left: 15px;
+  margin-left: 55px;
+  width: 265px;
+  border-radius: 5px;
+  height: 45px;
+  margin-right: 15px;
+  margin-top: 0px;
+  color: white;
+box-shadow: inset 3px 3px 3px black;
+}
+.box-3 {
+  display: flex;
+}
+.box-1 {
+  display: flex;
+}
+.name:hover {
+  background-color: #000000;
+  color: white;
+}
+.email {
+  /* background-color:purple; */
+  margin-left: 58px;
+  width: 670px;
+  border-radius: 5px;
+  height: 45px;
+  margin-right: 15px;
+  color: white;
+  box-shadow: 3px 3px 3px black;
+}
+.email:hover {
+  background-color: black;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  max-width: 1200px;
+  margin: 0px auto;
+  grid-gap: 80px;
+  height: 600px;
+  margin-left: 250px;
+}
+.laptop {
+  color: white;
+  width: 150px;
+}
+.grid-container > div {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  /* background-color: */
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px grey;
+}
+.h4 {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 45px;
+  color: white;
+}
+.h1 {
+  color: white;
+}
+.h2 {
+  color: white;
+}
+.h3 {
+  color: white;
+}
+.h5 {
+  color: white;
+}
+.h6 {
+  color: white;
+}
+
+.grid-container > div :nth-child(1) {
+}
+.grid-container > div :nth-child(2) {
+}
+.grid-container > div :nth-child(3) {
+}
+.grid-container > div :nth-child(4) {
+}
+.grid-container > div :nth-child(5) {
+}
+.grid-container > div :nth-child(6) {
+  grid-row: 600px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image:url(./images/leandra-rieger-wk966Ouqces-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(1, 1, 36);
+}
+.box-2 {
+  display: flex;
+}
+.outer-box {
+  width: 760px;
+  margin-left: 235px;
+  margin: 60px auto;
+  border: 2px solid black;
+  background-color: rgb(158, 158, 158,0.3);
+  
+  border-radius: 12px;
+  justify-content: center;
+}
+.phone {
+  /* background-color: purple; */
+  width: 275px;
+  border-radius: 5px;
+  height: 45px;
+  margin-right: 15px;
+  margin-left: 95px;
+  box-shadow: 3px 3px 3px black;
+}
+.phone:hover {
+  background-color: black;
+  color: white;
+}
+.dob {
+  /* background-color: purple; */
+  margin-left: 55px;
+  width: 275px;
+  height: 45px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 15px;
+  box-shadow: 3px 3px 3px black;
+}
+.dob:hover {
+  background-color: black;
+  color: white;
+}
+/* tabletmode */
+@media screen and (max-width:768px) {
+  body{
+     background-color:;
+     width:%;
+     background-size:cover;
+  }   
+  .box-3{
+    display: block;
+    width: 50%;
+  }
+  .box-1{
+     display: block;
+     width: 50%;
+  }
+  .box-2{
+     display: block;
+     width: 50%;
+     align-self: flex-end;
+  }
+  .bottom{
+    display:block;
+  }
+  .name{
+     width: 430px;
+     margin-left: 5px;
+  }
+  .outer-box{
+    width:600px;
+    margin:10px 0px;
+  }
+  .inner-box{
+    margin: 0px 2000px;
+    padding: 15px;
+  }
+  .click{
+    margin-left: 0px;
+    margin-right:500px;
+    display: block;
+    align-self: flex-end;
+  }
+  .email{
+     width: 445px;
+     margin-left:5px;
+     
+  }
+ 
+  .dob{
+     width: 445px;
+     margin-left:475px;
+     margin-right: 0px;
+  }
+  .phone-number{
+     width: 345px;
+  }
+  .age{
+     width: 445px;
+     margin-left:5px;
+  }
+  .city{
+     width:445px;
+     margin-left: 475px;
+     margin-right: 0px;
+ 
+  }
+  .country{
+     width: 445px;
+     margin-left: 475px;
+     margin-right: 0px;
+
+     
+  }
+  .agree{
+    display: block;
+    width: 70%;
+  }
+  .phone{
+     width: 445px;
+     margin-left: 5px;
+  }
+  #text-area{
+     background-color:white;
+     width: 450px;
+     font-family: 'Poppins', sans-serif;
+     margin-left:8px;
+     border-radius:15px;
+     margin-top: 75px;
+     justify-content: center;
+     display:flex;
+     align-self: center;
+     box-shadow: 3px 3px 3px black;
+ }
+ .head{
+     text-align: center;
+     width: 550px;
+     margin-left:80px;
+     color: white;
+     background-color:purple;
+ }
+ .agree{
+  display: block;
+ }
+ 
+ .grid-container{
+     display: grid;
+     grid-template-columns: 200px 200px ;
+     max-width: 400px;
+     margin: 0px auto;
+   grid-gap: 80px;
+   height: 50px;
+ }
+ .grid-container>div{
+     text-align: center;
+     border: 1px solid black;
+     padding:20px;
+ background-color: purple;
+ border-radius: 7px;
+ box-shadow: 3px 3px 3px grey;
+ }
+ 
+ .link{
+     margin-top:880px;
+     text-align: center;
+ }
+ 
+ }
+ 
+/**mobile**/
+@media screen and (max-width:500px) {
+    body{
+    background-color: antiquewhite;
+    }   
+    .box-3{
+      display: block;
+      width: 25%;
+      justify-items: center;
+    }
+    .box-1{
+       display: block;
+       width: 25%;
+       justify-items: center;
+    }
+    .box-2{
+       display:block;
+       width:25%;
+       justify-items:center;
+    }
+    .name{
+       width: 250px;
+       margin-left:75px;
+    }
+    .dob{
+        width: 270px;
+        margin-left:100px;
+    }
+    .email{
+       width: 270px;
+       margin-left:75px;
+       
+    }
+    
+    .age{
+       width: 270px;
+       margin-left:75px;
+    }
+    .city{
+       width:270px;
+       margin-left:;
+   
+    }
+    .country{
+       width: 270px;
+
+       
+    }
+    .phone{
+       width: 270px;
+      float: left;
+      margin-left: 75px;
+    }
+    .phone-no{
+        float:left;
+    }
+    #text-area{
+       background-color:white;
+       width: 250px;
+       font-family: 'Poppins', sans-serif;
+       margin-left:100px;
+       border-radius:15px;
+       margin-top: 70px;
+       justify-content: center;
+       display:flex;
+       align-self: center;
+       box-shadow: 3px 3px 3px black;
+   }
+   .head{
+       text-align: center;
+       width: 320px;
+       font-size:30px;
+       color: white;
+       margin-left:65px;
+       background-color:purple;
+   }
+   
+   .grid-container{
+       display: grid;
+       grid-template-columns: 200px ;
+       max-width: 200px;
+       margin: 0px auto;
+     grid-gap: 80px;
+     height: 50px;
+   }
+   .grid-container>div{
+       text-align: center;
+       border: 1px solid black;
+       padding:20px;
+   background-color: purple;
+   border-radius: 7px;
+   box-shadow: 3px 3px 3px grey;
+   }
+   
+   .link{
+       margin-top:1800px;
+       text-align: center;
+   }
+   .welcome{
+    font-size:3px;
+   }
+   nav a{
+    font-size:0.5em;
+   }
+   .nav-container{
+    display: flex;
+justify-content: space-between;
+margin: 0px;
+text-decoration: none;
+align-items: center;
+
+background-color:white;
+padding: 3px;
+border-radius: 5px;
+}
+.nav-links{
+    background-color:;
+    text-align: center;
+    margin-top:10px;
+    font-size:8px;
+    margin-left:0px;
+    flex: ;
+}
+.click{
+    margin-left: 85px;
+    margin-right: 1170px;
+}
+.login{
+    width: 100%;
+    background-color:black;
+    justify-self:center;
+    margin:;
+    
+}
+.register{
+    width:100%;
+    height: auto;
+    display: block;
+    padding:5px;
+}
+
+}
+   
